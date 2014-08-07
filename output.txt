@@ -1,0 +1,118 @@
+Listening for engine communications on 49674
+Closing down
+Listening for engine communications on 49674
+Closing down
+Listening for engine communications on 49674
+Closing down
+Listening for engine communications on 49674
+Closing down
+Listening for engine communications on 49674
+Closing down
+Listening for engine communications on 49674
+Closing down
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Cura_14.07.1-Accordion\python\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 14660, in <lambda>
+    lambda event: event.callable(*event.args, **event.kw) )
+  File "Cura\gui\splashScreen.py", line 15, in DoCallback
+    self.callback()
+  File "Cura\gui\app.py", line 99, in afterSplashCallback
+    from Cura.gui import mainWindow
+  File "Cura\gui\mainWindow.py", line 18, in <module>
+    from Cura.gui import aboutWindow
+  File "Cura\gui\aboutWindow.py", line 20
+SyntaxError: Non-ASCII character '\xc5' in file Cura\gui\aboutWindow.py on line 20, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Listening for engine communications on 49674
+Closing down
+Listening for engine communications on 49674
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Cura_14.07.1-Accordion\python\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 14660, in <lambda>
+    lambda event: event.callable(*event.args, **event.kw) )
+  File "Cura\gui\splashScreen.py", line 15, in DoCallback
+    self.callback()
+  File "Cura\gui\app.py", line 99, in afterSplashCallback
+    from Cura.gui import mainWindow
+  File "Cura\gui\mainWindow.py", line 18, in <module>
+    from Cura.gui import aboutWindow
+  File "Cura\gui\aboutWindow.py", line 21
+SyntaxError: Non-ASCII character '\xc5' in file Cura\gui\aboutWindow.py on line 21, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Failed to listen on port: 49674
+Listening for engine communications on 49675
+Closing down
+Failed to listen on port: 49674
+Listening for engine communications on 49675
+Listening for engine communications on 49674
+Closing down
+Listening for engine communications on 49674
+Closing down
+Listening for engine communications on 49674
+Closing down
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Cura_14.07.1-Accordion\python\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 14660, in <lambda>
+    lambda event: event.callable(*event.args, **event.kw) )
+  File "Cura\gui\splashScreen.py", line 15, in DoCallback
+    self.callback()
+  File "Cura\gui\app.py", line 145, in afterSplashCallback
+    self.mainWindow = mainWindow.mainWindow()
+  File "Cura\gui\mainWindow.py", line 67, in __init__
+    i = self.fileMenu.Append(-1, _("모델 불러오기...\tCTRL+L"))
+  File "C:\Program Files (x86)\Cura_14.07.1-Accordion\python\lib\gettext.py", line 404, in ugettext
+    return unicode(message)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb8 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Cura_14.07.1-Accordion\python\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 14660, in <lambda>
+    lambda event: event.callable(*event.args, **event.kw) )
+  File "Cura\gui\splashScreen.py", line 15, in DoCallback
+    self.callback()
+  File "Cura\gui\app.py", line 145, in afterSplashCallback
+    self.mainWindow = mainWindow.mainWindow()
+  File "Cura\gui\mainWindow.py", line 68, in __init__
+    i = self.fileMenu.Append(-1, _("모델 불러오기...\tCTRL+L"))
+  File "C:\Program Files (x86)\Cura_14.07.1-Accordion\python\lib\gettext.py", line 404, in ugettext
+    return unicode(message)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb8 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Cura_14.07.1-Accordion\python\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 14660, in <lambda>
+    lambda event: event.callable(*event.args, **event.kw) )
+  File "Cura\gui\splashScreen.py", line 15, in DoCallback
+    self.callback()
+  File "Cura\gui\app.py", line 145, in afterSplashCallback
+    self.mainWindow = mainWindow.mainWindow()
+  File "Cura\gui\mainWindow.py", line 67, in __init__
+    i = self.fileMenu.Append(-1, _("모델 불러오기...\tCTRL+L"))
+  File "C:\Program Files (x86)\Cura_14.07.1-Accordion\python\lib\gettext.py", line 404, in ugettext
+    return unicode(message)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb8 in position 0: ordinal not in range(128)
+Listening for engine communications on 49674
+Closing down
+Listening for engine communications on 49674
+Closing down
+Listening for engine communications on 49674
+Closing down
+Listening for engine communications on 49674
+Closing down
+Listening for engine communications on 49674
+Closing down
+Failed to listen on port: 49674
+Listening for engine communications on 49675
+Closing down
+Exception in thread Thread-6 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):Listening for engine communications on 49674
+Traceback (most recent call last):
+  File "Cura\gui\util\openglGui.py", line 187, in _OnGuiMouseDown
+    self.OnMouseDown(e)
+  File "Cura\gui\sceneView.py", line 750, in OnMouseDown
+    self._mouseClick3DPos = self._mouse3Dpos
+AttributeError: 'SceneView' object has no attribute '_mouse3Dpos'
+Closing down
+Failed to listen on port: 49674
+Listening for engine communications on 49675
+Closing down
+Listening for engine communications on 49674
+Closing down
+Failed to listen on port: 49674
+Listening for engine communications on 49675
+Failed to listen on port: 49674
+Listening for engine communications on 49675
+Closing down
+Listening for engine communications on 49674
+Closing down
